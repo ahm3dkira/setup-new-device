@@ -9,4 +9,6 @@ evillimiter
 nmap
 hexedit
 burp suite
+metasploit
+john the ripper
 
