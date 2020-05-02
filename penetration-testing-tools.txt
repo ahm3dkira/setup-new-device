@@ -1,0 +1,12 @@
+#list of some tools
+
+aircrack-ng
+crunch
+hashcat
+wifite
+wireshark
+evillimiter
+nmap
+hexedit
+burp suite
+
