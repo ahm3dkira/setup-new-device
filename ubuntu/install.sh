@@ -13,6 +13,11 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 sudo apt install python3 python
 sudo apt install python3-pip
 
+#monitoring CPU and HDD temperatures
+sudo apt install hddtemp lm-sensors
+#hddtemp
+#sensors
+
 #hexedit
 sudo apt install hexedit
  
