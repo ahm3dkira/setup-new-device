@@ -1,0 +1,10 @@
+#Chrome
+https://www.google.com/chrome/
+
+#OBS
+https://obsproject.com/download
+
+#firefox
+https://www.mozilla.org/ar/firefox/new/
+
+
