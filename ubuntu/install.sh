@@ -4,6 +4,11 @@ sudo apt update && sudo apt upgrade
 sudo apt -y install gcc g++ 
 sudo apt install vim curl git wget
 sudo apt install openssh-server 
+sudo apt install npm
+
+#json-server
+npm install -g json-server
+#json-server --watch db.json  #to start
 
 #info
 sudo apt install screenfetch
