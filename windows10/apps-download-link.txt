@@ -4,6 +4,16 @@ https://www.google.com/chrome/
 #OBS
 https://obsproject.com/download
 
+#plex
+
+#VS Code
+
+#Unity3d
+
+#notepad++
+
+#VBox
+
 #firefox
 https://www.mozilla.org/ar/firefox/new/
 
