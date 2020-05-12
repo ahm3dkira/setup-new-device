@@ -5,6 +5,9 @@ sudo apt -y install gcc g++
 sudo apt install vim curl git wget
 sudo apt install openssh-server 
 
+#info
+sudo apt install screenfetch
+
 #chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
