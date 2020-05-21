@@ -36,9 +36,8 @@ sudo apt-get install mysql-server
 sudo apt-get install phpmyadmin
 
 #wifi
-sudo apt-get install aircrack-ng  
 sudo apt-get install wifite 
-sudo apt-get install crunch hashcat
+sudo apt-get install hashcat
 
 #netbeans  
 #https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
@@ -57,11 +56,6 @@ sudo apt install kdenlive
 sudo apt-get install ffmpeg
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt install obs-studio
-
-#torbrowser - need to update
-sudo add-apt-repository ppa:micahflee/ppa
-sudo apt update 
-sudo apt install torbrowser-launcher
 
 #freecad
 sudo apt-get install freecad
@@ -82,13 +76,6 @@ sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
 
-#nmap
-sudo apt  install nmap
-
-#evillimiter
-git clone https://github.com/bitbrute/evillimiter.git
-cd evillimiter
-sudo python3 setup.py install
 
 #plex
 
