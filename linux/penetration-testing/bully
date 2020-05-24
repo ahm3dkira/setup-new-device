@@ -1,0 +1,19 @@
+#Requirements
+sudo apt-get -y install build-essential libpcap-dev aircrack-ng pixiewps
+
+#Setup
+#1) Download
+
+git clone https://github.com/aanarchyy/bully
+#or
+#wget https://github.com/aanarchyy/bully/archive/master.zip && unzip master.zip
+
+#2) Build
+
+cd bully*/
+cd src/
+make
+
+#3) Install
+
+sudo make install
