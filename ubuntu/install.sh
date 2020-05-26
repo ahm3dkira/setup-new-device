@@ -77,5 +77,3 @@ sudo systemctl enable docker
 docker --version
 
 
-#plex
-
