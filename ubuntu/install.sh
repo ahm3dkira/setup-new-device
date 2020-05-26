@@ -60,9 +60,6 @@ sudo apt install obs-studio
 #freecad
 sudo apt-get install freecad
 
-#steam
-sudo add-apt-repository multiverse
-sudo apt install steam
 
 #virtualbox
 sudo add-apt-repository multiverse && sudo apt-get update
