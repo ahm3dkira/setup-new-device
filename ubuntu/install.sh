@@ -6,12 +6,12 @@ sudo apt install vim curl git wget
 sudo apt install openssh-server 
 sudo apt install npm
 
+#info
+sudo apt install screenfetch
+
 #json-server
 npm install -g json-server
 #json-server --watch db.json  #to start
-
-#info
-sudo apt install screenfetch
 
 #chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
