@@ -35,9 +35,6 @@ sudo apt install php
 sudo apt-get install mysql-server
 sudo apt-get install phpmyadmin
 
-#wifi
-sudo apt-get install wifite 
-sudo apt-get install hashcat
 
 #netbeans  
 #https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
