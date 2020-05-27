@@ -43,16 +43,6 @@ sudo apt-get install phpmyadmin
 #vlc
 sudo apt-get install vlc
 
-#kdenlive
-sudo add-apt-repository ppa:kdenlive/kdenlive-stable
-sudo apt-get update
-sudo apt install kde-runtime
-sudo apt install kdenlive
-
-#obs-studio
-sudo apt-get install ffmpeg
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt install obs-studio
 
 #freecad
 sudo apt-get install freecad
