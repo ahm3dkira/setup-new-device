@@ -1,0 +1,11 @@
+cat /etc/lsb-release
+
+sudo apt update
+sudo apt upgrade -y
+
+sudo reboot
+sudo apt --purge autoremove
+sudo apt install update-manager-core -y
+sudo do-release-upgrade -d
+
+cat /etc/lsb-release
