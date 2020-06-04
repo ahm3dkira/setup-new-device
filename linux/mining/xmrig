@@ -9,3 +9,10 @@ make
 
 #for XMRig configuration go to
 #https://xmrig.com/wizard
+
+#my configuration
+sudo ./xmrig/scripts/enable_1gb_pages.sh
+sudo sysctl -w vm.nr_hugepages=1280
+sudo bash -c "echo vm.nr_hugepages=1280 >> /etc/sysctl.conf"
+
+sudo ./xmrig/build/xmrig --donate-level 1 -o pool.hashvault.pro:443 -u 484grWxao7w4LPrEW3pzmZPMwVAvydT29DZJFpZBwJwBSVj2Moik5S6QT8Le7U5co5WXwG4m4zetfJse9wEiVXJw8QDCnzK -k --tls
