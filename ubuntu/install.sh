@@ -1,11 +1,12 @@
 #ubuntu 18.04
 sudo apt update && sudo apt upgrade
 #
+sudo passwd root
 sudo apt -y install gcc g++ 
 sudo apt install vim curl git wget
 sudo apt install openssh-server 
-sudo apt install npm
-
+#sudo apt install npm
+sudo apt install net-tools
 #info
 sudo apt install screenfetch
 
