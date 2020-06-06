@@ -14,6 +14,9 @@ sudo apt install screenfetch
 npm install -g json-server
 #json-server --watch db.json  #to start
 
+
+curl -sSL https://install.pi-hole.net | bash
+
 #chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
