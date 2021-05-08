@@ -3,7 +3,7 @@
 sudo passwd root
 sudo apt update && sudo apt upgrade -y
 
-sudo apt -y install -y \
+sudo apt install -y \
 gcc \
 g++ \
 vim \
