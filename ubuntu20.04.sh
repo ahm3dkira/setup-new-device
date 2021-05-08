@@ -14,7 +14,7 @@ openssh-server \
 net-tools \
 unrar \
 nodejs \
-npm \
+npm 
 
 
 #chrome
