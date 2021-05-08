@@ -1,14 +1,31 @@
-sudo apt update && sudo apt upgrade
-#
-sudo passwd root
+#!/bin/bash
 
-sudo apt -y install gcc g++ vim curl git wget openssh-server net-tools unrar
-#info
-sudo apt install screenfetch
+sudo passwd root
+sudo apt update && sudo apt upgrade -y
+
+sudo apt -y install -y \
+gcc \
+g++ \
+vim \
+curl \
+git \
+wget \
+openssh-server \
+net-tools \
+unrar \
+nodejs \
+npm \
+
 
 #chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
+
+## code exodus xmrig
+##
+#info
+sudo apt install screenfetch
+
 
 #python
 sudo apt install python3 python
