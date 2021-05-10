@@ -24,9 +24,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
 
-# Manual proxy: 127.0.0.1:9150,No Proxy for: 127.0.0.1 
-
-
+# Manual proxy: 127.0.0.1:9150 (SOCKS v5),No Proxy for: 127.0.0.1 
 
 
 sudo apt purge --ignore-missing -y \
