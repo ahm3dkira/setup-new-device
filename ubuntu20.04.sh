@@ -23,11 +23,6 @@ tor
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
-# sudo service tor start 
-# Manual proxy: 127.0.0.1:9050 (SOCKS v5),No Proxy for: 127.0.0.1 
-# sudo netstat -ltnp | grep tor
-# google-chrome-stable --proxy-server="socks://127.0.0.1:9050"
-# google-chrome-stable --proxy-server="socks5://127.0.0.1:9050"
 
 
 
