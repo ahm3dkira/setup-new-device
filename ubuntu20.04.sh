@@ -25,7 +25,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
 # sudo service tor start 
 # Manual proxy: 127.0.0.1:9050 (SOCKS v5),No Proxy for: 127.0.0.1 
-
+# sudo netstat -ltnp | grep tor
 
 sudo apt purge --ignore-missing -y \
 kdeconnectd 
