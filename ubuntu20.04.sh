@@ -24,7 +24,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
 
-
+curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
+sudo apt-get install speedtest
 
 sudo apt purge --ignore-missing -y \
 kdeconnectd 
