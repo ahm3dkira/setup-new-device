@@ -6,3 +6,5 @@
 # google-chrome-stable --proxy-server="socks5://127.0.0.1:9050"
 # [x] Proxy DNS when using SOCKS v5
 # foxyProxy
+- [firefox](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
+- 
