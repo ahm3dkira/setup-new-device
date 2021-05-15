@@ -16,7 +16,8 @@ unrar \
 nodejs \
 npm \
 kdenlive \
-tor
+tor \
+nmap
 
 
 #chrome
