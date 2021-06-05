@@ -1,6 +1,8 @@
 #!/bin/bash
-
 sudo passwd root
+
+
+sudo dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y \
@@ -17,7 +19,11 @@ nodejs \
 npm \
 kdenlive \
 tor \
-nmap
+nmap \
+wine64 \
+wine32 \
+xclip 
+
 
 
 #chrome
