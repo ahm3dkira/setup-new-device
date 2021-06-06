@@ -22,7 +22,8 @@ tor \
 nmap \
 wine64 \
 wine32 \
-xclip 
+xclip \
+python3-setuptools
 
 
 
