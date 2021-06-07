@@ -23,7 +23,8 @@ nmap \
 wine64 \
 wine32 \
 xclip \
-python3-setuptools
+python3-setuptools \
+reaver tshark hashcat hcxdumptool  macchanger aircrack-ng
 
 
 
