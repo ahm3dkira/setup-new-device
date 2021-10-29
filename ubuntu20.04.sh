@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# https://ubuntu.com/download
+
+## set root passwd
 sudo passwd root
 
 
@@ -24,20 +28,22 @@ wine64 \
 wine32 \
 xclip \
 python3-setuptools \
-reaver tshark hashcat hcxdumptool  macchanger aircrack-ng
+hexedit \
+gnome-session adwaita-icon-theme-full fonts-cantarell \
+meson sassc libglib2.0-dev libxml2-utils \
+reaver tshark hashcat hcxdumptool macchanger aircrack-ng
 
 
-
-#chrome
+## install chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
-
+## install speedtest
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
 sudo apt-get install speedtest
 
-sudo apt purge --ignore-missing -y \
-kdeconnectd 
+# sudo apt purge --ignore-missing -y \
+# kdeconnectd 
 
 
 
@@ -45,23 +51,17 @@ kdeconnectd
 
 
 ## code exodus xmrig discord
-##
 #info
 sudo apt install screenfetch
 
 
 #python
-sudo apt install python3 python
-sudo apt install python3-pip
+sudo apt install python3 python python3-pip
 
-#monitoring CPU and HDD temperatures
+## monitoring CPU and HDD temperatures
 sudo apt install hddtemp lm-sensors
-#sudo hddtemp SATA:/dev/sda
-#sensors or watch sensors
-
-#hexedit
-sudo apt install hexedit
-
+# sudo hddtemp SATA:/dev/sda
+# sensors or watch sensors
 
 #virtualbox
 sudo add-apt-repository multiverse && sudo apt-get update
