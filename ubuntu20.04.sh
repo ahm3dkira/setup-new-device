@@ -45,10 +45,8 @@ sudo apt-get install speedtest
 # sudo apt purge --ignore-missing -y \
 # kdeconnectd 
 
-
-
-
-
+wget -O ~/discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
+sudo apt install discord.deb
 
 ## code exodus xmrig discord
 #info
@@ -74,4 +72,3 @@ sudo apt install docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
-
