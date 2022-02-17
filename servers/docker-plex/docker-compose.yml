@@ -1,0 +1,19 @@
+version: "2.1"
+services:
+  plex:
+    image: ghcr.io/linuxserver/plex
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+      - PLEX_CLAIM= #optional
+    volumes:
+      - /home/kira/.docker/plex/config:/config
+      - /home/kira/.docker/plex/tvseries:/tv
+      - /home/kira/.docker/plex/movies:/movies
+      - /media/kira/3FC757687D228760/MYDATA/Movies:/all.movies # all
+    ports:
+      - 32400:32400
+    restart: unless-stopped
