@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  nextcloud:
+    image: ghcr.io/linuxserver/nextcloud
+    container_name: nextcloud
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Egypt
+    volumes:
+      - /home/kira/.docker/nextcloud/config:/config
+      - /home/kira/.docker/nextcloud/data:/data
+    ports:
+      - 44388:443
+    restart: unless-stopped
