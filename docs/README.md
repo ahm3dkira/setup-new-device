@@ -1,4 +1,4 @@
-`sudo lshw -html > hardware.html`
+```sudo lshw -html > hardware.html```
 
 
  ```sudo umount /dev/sdb1
